@@ -2,3 +2,58 @@
 * It is a tool (Software) used to control the versions Of the Application.
 * It will tracks the changes in the code.
 * we go back to the older version if something wrong in the new version.
+
+
+
+
+
+
+                                                            
+                                                           git commit -m "test2.text will be added"
+        (test1,txt,test2.txt)           -----------------<---------------------------------------------------<----------
+         ----<-------------------<--    |                                                                              |
+        |                          |    |                                                                              |
+        |                          |    |                                                                              |
+    ____|________              ____|____|___________                 _____________________              _______________|__________________
+    | Git Folder |    ======>  |Git Copy Folder    |    =======>    |Working Folder      |    ======>  |Stagging Area (Waiting area)    |
+    |____________|             |___________________|                |____________________|             |________________________________|
+                                ( it have test1.txt, test2.txt)
+    (test1.txt i
+    creaated in git)
+
+    (test 2 is created
+    in vs code and commited 
+    from the staaging Area to 
+    to the git copy folder and
+    from to git folder)
+
+
+
+            INSERT ========================>   ADD ==================================> COMMIT ===========================>  PUSH
+      create new file                  Add the file to the                       Now the test2.txt file               Now the test2.txt file
+      it in the vs code                Stagging Area(Waiting Area)               will be added to the                 will be added in the 
+                                                                                 (git copy folder)                       (git hub folder)
+
+
+
+
+===> git clone https://github.com/Siva6383/gitting.git
+    * Used to import the test1.txt from the git repository to the editor(visual studio code).
+
+* In visual studio code terminal,
+    ===> PS D:\Git\gitting> cd gitting
+
+===> git status:
+    * Used to see the Status of the folder.
+
+===> git add test2.txt
+    * Used to Add the test2.txt Folder to the stagging folder.
+
+* Now the test2.txt file is in the stagging Area.(Waiting Area).
+* I Want to push this to the git copy folder by using "git commit" command
+
+===> git commit m "//test2.txt file will be added to the git copy folder"
+    * Now the test2.txt file will be added to the git Copy Folder
+
+===> git push origin main
+    * Now the test2.txt file will be added to the git hub.
