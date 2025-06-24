@@ -36,7 +36,6 @@
 
 
 
-
 ===> git clone https://github.com/Siva6383/gitting.git
     * Used to import the test1.txt from the git repository to the editor(visual studio code).
 
@@ -57,6 +56,16 @@
 
 ===> git push origin main
     * Now the test2.txt file will be added to the git hub.
+
+
+
+
+
+
+    * oru pudhu test3.txt file vs code la create panrom.Adu ipo working Area la iruku.(vs Code la).
+    * epo (git add test3.txt ) kudukura apo andha file vandhu stagging area (Waiting Area) ku poguthu.
+    * Apram  (git commit -m "text3.txt is created) nu kudukuromo apo andha file (git copy folder ku poguthu).
+    * Apram ( git push origin main) nu kudukura apo andha file git hub ku poguthu. anga text3.txt file teriyum.
 
 * Now we want to add the content of the code from (vs Code) ======> git hub folder
 
