@@ -67,6 +67,15 @@
     * Apram  (git commit -m "text3.txt is created) nu kudukuromo apo andha file (git copy folder ku poguthu).
     * Apram ( git push origin main) nu kudukura apo andha file git hub ku poguthu. anga text3.txt file teriyum.
 
+    Files changing And Modification: 
+    *File la edavathu change panuna thirumba (git add text3.txt) kudukanum.
+    * Apram (git commit -m "modified" ) kudukanum.
+    * Apram (git push origin main) nu kuduthu file la git hub ku push panrom.
+    * Ipo gitHub la poi patha andha file modified agirukum.
+    * File Ah (DELETE) panalum idae tha repeat pananum.
+
+
+
 * Now we want to add the content of the code from (vs Code) ======> git hub folder
 
 ======> git add test1.txt
