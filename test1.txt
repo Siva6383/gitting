@@ -1,0 +1,4 @@
+* Git is a version control System.
+* It is a tool (Software) used to control the versions Of the Application.
+* It will tracks the changes in the code.
+* we go back to the older version if something wrong in the new version.
