@@ -57,3 +57,9 @@
 
 ===> git push origin main
     * Now the test2.txt file will be added to the git hub.
+
+* Now we want to add the content of the code from (vs Code) ======> git hub folder
+
+======> git add test1.txt
+======> git commit -m "test1.txt file will be modified"
+======> git push origin main
