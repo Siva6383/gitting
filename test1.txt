@@ -10,8 +10,12 @@ GITHUB:
     * ( Git is like a car. It have the repositories and Github is like a car garage).
     * GitHub can share our code to others through online.
 
-
-
+TO CONFIGURE USERNMAE AND EMAIL:
+USERNMAE:
+git config --global user.name "Siva6383"
+git congig --global user.email "sivaharish638349@gmail.com"
+ 
+.git acts as a bridge between the git repository and folder created in the VS Code
 
 
 
