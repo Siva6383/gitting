@@ -64,6 +64,10 @@ GITHUB:
 ===> git push origin main
     * Now the test2.txt file will be added to the git hub.
 
+===> git pull origin main --rebase
+   * This will download the changes from gitHub to Local Folder( vs code) .
+   * We modefiy the file in the gitHub and we pull the modified file from the local Folder (vs Code).
+
 
 
 
