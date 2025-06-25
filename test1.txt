@@ -1,7 +1,14 @@
-* Git is a version control System.
-* It is a tool (Software) used to control the versions Of the Application.
-* It will tracks the changes in the code.
-* we go back to the older version if something wrong in the new version.
+GIT:    
+    * Git is a version control System.
+    * It is a tool (Software) used to control the versions Of the Application.
+    * It will tracks the changes in the code.
+    * we go back to the older version if something wrong in the new version.
+
+GITHUB:
+    * It is a (Software or website or platform).
+    * It store the multiple Git repositories.
+    * ( Git is like a car. It have the repositories and Github is like a car garage).
+    * GitHub can share our code to others through online.
 
 
 
