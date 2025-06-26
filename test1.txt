@@ -68,9 +68,45 @@ git congig --global user.email "sivaharish638349@gmail.com"
 ===> git push origin main
     * Now the test2.txt file will be added to the git hub.
 
-===> git pull origin main --rebase
+===> git pull origin main --rebase (OR) git pull (OR) git pull origin main
    * This will download the changes from gitHub to Local Folder( vs code) .
    * We modefiy the file in the gitHub and we pull the modified file from the local Folder (vs Code).
+
+===> git init
+    * Used to change the local file to the git file (.git).
+    *Initializes an empty new git repository
+
+===> git add .
+    * Used to add the multiple modified files to the staging area at a time 
+
+===>  git remote add origin https://github.com/Siva6383/gitting2.git
+    * TO insert the local folder to the github repository.
+
+===> git branch -M main
+    * By default, new repository will be in master branch.To change from master branch to main branch.
+
+===> git branch
+    * It will Showing the Current Branch.
+
+    * creating a branch in the gitHub Directory
+
+===> git branch -a
+    * It is the List of the branches.
+
+===> git checkout Demo //branchname
+    * Used to move From One branch to Another Branch.
+
+===> git push origin Demo //Branchname
+    * Accessing Demo Branch and files.
+
+===> git diff branchname
+    *Shows the unique file stored in the particular branch
+
+===>git merge branchname
+    *Merge the unique file from another branch to main branch
+
+    CREATING BRANCH THROUGH THE TERMINAL
+     
 
 
 
